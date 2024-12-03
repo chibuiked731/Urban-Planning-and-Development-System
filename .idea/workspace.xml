@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06297c30-eb33-4904-be86-950b0e5491f3" name="Changes" comment="" />
+    <list default="true" id="06297c30-eb33-4904-be86-950b0e5491f3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/community-improvement-fund.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/community-improvement-fund.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/construction-project-management.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/construction-project-management.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/debris-tracker.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/debris-tracker.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/funding-pool_.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/funding-pool_.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/space-debris-token.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/space-debris-token.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/urban-development-proposal.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/urban-development-proposal.test.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,6 +66,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Users/chineduofor/Documents/GitHub/Urban-Planning-and-Development-System/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -79,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1733258887535</updated>
-      <workItem from="1733258888622" duration="492000" />
+      <workItem from="1733258888622" duration="799000" />
     </task>
     <servers />
   </component>

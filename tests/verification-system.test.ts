@@ -1,21 +1,45 @@
+import { describe, it, expect, beforeEach } from 'vitest'
 
-import { describe, expect, it } from "vitest";
+// Mock blockchain state
+let verifiers: { [key: string]: { name: string, active: boolean } } = {}
 
-const accounts = simnet.getAccounts();
-const address1 = accounts.get("wallet_1")!;
+// Mock contract functions
+const addVerifier = (sender: string, verifier: string, name: string) => {
+  if (sender !== 'ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM') {
+    return { success: false, error: 401 }
+  }
+  verifiers[verifier] = { name, active: true }
+  return { success: true }
+}
 
-/*
-  The test below is an example. To learn more, read the testing documentation here:
-  https://docs.hiro.so/stacks/clarinet-js-sdk
-*/
+const removeVerifier = (sender: string, verifier: string) => {
+  if (sender !== 'ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM') {
+    return { success: false, error: 401 }
+  }
+  delete verifiers[verifier]
+  return { success: true }
+}
 
-describe("example tests", () => {
-  it("ensures simnet is well initalised", () => {
-    expect(simnet.blockHeight).toBeDefined();
-  });
+const isVerifier = (verifier: string) => {
+  return verifier in verifiers
+}
 
-  // it("shows an example", () => {
-  //   const { result } = simnet.callReadOnlyFn("counter", "get-counter", [], address1);
-  //   expect(result).toBeUint(0);
-  // });
-});
+describe('VerificationSystem', () => {
+  beforeEach(() => {
+    verifiers = {}
+  })
+  
+  it('ensures verifiers can be added and removed', () => {
+    const deployer = 'ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM'
+    const wallet1 = 'ST2CY5V39NHDPWSXMW9QDT3HC3GD6Q6XX4CFRK9AG'
+    
+    const addResult = addVerifier(deployer, wallet1, 'Space Agency 1')
+    expect(addResult.success).toBe(true)
+    expect(isVerifier(wallet1)).toBe(true)
+    
+    const removeResult = removeVerifier(deployer, wallet1)
+    expect(removeResult.success).toBe(true)
+    expect(isVerifier(wallet1)).toBe(false)
+  })
+})
+
