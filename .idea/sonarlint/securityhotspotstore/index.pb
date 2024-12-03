@@ -9,3 +9,5 @@ M
 contracts/debris-tracker.clar,3/c/3cc5b9b0165b003234a71cd5601ef803c9eecec6
 L
 contracts/funding-pool_.clar,3/3/33adf44d55cb197ea358e941769504174de7f19c
+Q
+!contracts/space-debris-token.clar,7/2/727a2b88a97732c59105788c49576b0ddf1fabd7
