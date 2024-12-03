@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="06297c30-eb33-4904-be86-950b0e5491f3" name="Changes" comment="" />
+    <list default="true" id="06297c30-eb33-4904-be86-950b0e5491f3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/community-improvement-fund.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/community-improvement-fund.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/construction-project-management.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/construction-project-management.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/debris-tracker.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/debris-tracker.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/funding-pool_.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/funding-pool_.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/space-debris-token.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/space-debris-token.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/urban-development-proposal.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/urban-development-proposal.test.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +22,31 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="develop" />
+                    <option name="lastUsedInstant" value="1733258947" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1733258946" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6
@@ -22,11 +60,21 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "develop",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Users/chineduofor/Documents/GitHub/Urban-Planning-and-Development-System/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -42,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1733258887535</updated>
-      <workItem from="1733258888622" duration="30000" />
+      <workItem from="1733258888622" duration="799000" />
     </task>
     <servers />
   </component>
